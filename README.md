@@ -47,9 +47,7 @@ CNNs learn **spatial hierarchies of features** by applying convolutional filters
 
 The model is trained using **Binary Cross-Entropy loss**:
 
-\[
-L = -[y \log(\hat{y}) + (1 - y)\log(1 - \hat{y})]
-\]
+L = -[ylog(y^) + (1-y)log(1-y^)]
 
 This loss encourages the network to output accurate probabilities for the two classes.
 
